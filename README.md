@@ -48,6 +48,21 @@ of each Attribute, ”Amount” is the amount of each transaction, and the final
 <br>
 <br>
 
+## Results
+
+
+The table below summarizes the AUC (Area Under the Curve) of the different machine learning models used for credit card fraud detection:
+
+| Model           | AUC  |
+|-----------------|------|
+| Logistic Regression (LR) | 0.855 |
+| Support Vector Machine (SVM) | 0.910 |
+| Random Forest   | 0.960 |
+| XGBoost         | 0.974 |
+
+
+This table demonstrates that the Decision Tree model achieved the highest AUC, indicating the best overall performance in distinguishing between fraudulent and non-fraudulent transactions.
+
 ## Future Work 
 There are many ways to improve the model, such as using it on different datasets with various sizes and data types or by changing the data splitting ratio and viewing it from a different algorithm perspective. An example can be merging telecom datato calculate the location of people to have better knowledge of the location of the card owner while his/her credit card is being used; this will ease the detection because if the card owner is in Dubai and a transaction of his card was made in Abu Dhabi, it
 will easily be detected as Fraud.
