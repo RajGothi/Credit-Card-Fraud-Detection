@@ -39,11 +39,11 @@ of each Attribute, ”Amount” is the amount of each transaction, and the final
 <br>
 
 ## Algorithm 
-1. K-Nearest Neighbor (KNN)
-2. Logistic Regression (L.R.)
-3. Support Vector Machine (SVM)
-4. Decision Tree (D.T.)
-
+1) Support Vector Machine (SVM)
+2) Decision Tree (D.T.)
+3) XGBoost
+4) Random Forest
+5) Logistic Regression
 
 <br>
 <br>
